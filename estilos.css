@@ -113,6 +113,25 @@ input:focus{
     flex-direction: column;
    
 }
+.suggestions-container{
+    width:80%;
+    height: 70%;
+    margin-left: 4%;
+    background: var(--bgris);
+    position: absolute;
+    display: none;
+    z-index: 100;
+}
+.suggestion{
+    margin-left: 2%;
+  
+
+}
+.box{
+    margin-top: 2%;
+    flex-direction: row;
+    display: flex;
+}
 /*Peliculas*/
 .body-container{
     width: 100%;
