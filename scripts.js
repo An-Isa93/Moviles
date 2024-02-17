@@ -19,35 +19,15 @@ function handleInput() {
     suggestionsContainer.innerHTML = suggestions 
             ? /*si hay sugerencias se muestra*/ `<div class="suggestion"><h2>Recomendaciones</h2>
             ${suggestions}
-            <div class="box">
-            <div class="body-container">
-            <div class="movie-box">
-            </div>
-            <div class="title-box">
-            <p>Dark</p>
-            </div>
-            <div class="iconplay-con">
-            <i class="play-icon"><img src="iconos/play.svg"></i></div>
-         </div>
-    
-       <div class="body-container">
-          <div class="movie-box">
-          </div>
-          <div class="title-box">
-          <p>Dark</p>
-          </div>
-          <div class="iconplay-con">
-          <i class="play-icon"><img src="iconos/play.svg"></i></div>
+      <div class="box">
+           
+            <div class="movie-box"></div>
+  
+           <div class="movie-box"></div>
+   
+           <div class="movie-box"></div>
+     
        </div>
-
-       <div class="body-container">
-       <div class="movie-box">
-       </div>
-       <div class="title-box">
-       <p>Dark</p>
-       </div>
-       <div class="iconplay-con">
-       <i class="play-icon"><img src="iconos/play.svg"></i></div></div>
     </div>
     </div>`
             : /*cadena vacia si es falso*/'';
